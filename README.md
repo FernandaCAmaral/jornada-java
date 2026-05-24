@@ -12,8 +12,8 @@ Abaixo estão os projetos desenvolvidos, organizados por ordem de complexidade e
 
 | # | Projeto | Principais Conceitos Aplicados | Foco em Qualidade (QA) |
 |---|---------|--------------------------------|------------------------|
-| 01 | [🏦 Sistema Bancário](./01-desafio-sistema-bancario) | Sintaxe Java, entrada de dados (`Scanner`), controle de fluxo e loops. | Validação de fluxos e limites de saldo. |
-| 02 | [🎵 AudioPlayer](./02-player-musicas-poo) | Orientação a Objetos (Herança, Encapsulamento, Polimorfismo) e Pacotes. | Testes lógicos baseados em regras de negócio específicas. |
+| 01 | [🏦 Sistema Bancário](./01-desafio-sistema-bancario/src) | Sintaxe Java, entrada de dados (`Scanner`), controle de fluxo e loops. | Validação de fluxos e limites de saldo. |
+| 02 | [🎵 AudioPlayer](./02-desafio-audio-player/src/br/com/alura/audioplayer) | Orientação a Objetos (Herança, Encapsulamento, Polimorfismo) e Pacotes. | Testes lógicos baseados em regras de negócio específicas. |
 
 ---
 
