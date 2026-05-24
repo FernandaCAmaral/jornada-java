@@ -27,6 +27,7 @@ public class Audio {
         return totalReproducoes;
     }
 
+    // total de curtidas APENAS se lê (o controle é feito pelo métdo curtir)
     public int getTotalCurtidas() {
         return totalCurtidas;
     }
