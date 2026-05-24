@@ -4,6 +4,7 @@ public class Podcast extends Audio {
     private String host;
     private String descricao;
 
+    //Regra de Classificacao para Podcasts (Curtidas)
     @Override
     public int getClassificacao() {
         if (this.getTotalCurtidas() > 100) {
