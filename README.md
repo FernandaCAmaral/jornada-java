@@ -10,10 +10,11 @@ O objetivo desta jornada é consolidar conceitos sólidos de **Engenharia de Sof
 
 Abaixo estão os projetos desenvolvidos, organizados por ordem de complexidade e conceitos aplicados. Cada pasta possui seu próprio `README.md` detalhando as regras de negócio e abordagens de teste:
 
-| # | Projeto | Principais Conceitos Aplicados | Foco em Qualidade (QA) |
-|---|---------|--------------------------------|------------------------|
-| 01 | [🏦 Sistema Bancário](./01-desafio-sistema-bancario/src) | Sintaxe Java, entrada de dados (`Scanner`), controle de fluxo e loops. | Validação de fluxos e limites de saldo. |
-| 02 | [🎵 AudioPlayer](./02-desafio-audio-player/src/br/com/alura/audioplayer) | Orientação a Objetos (Herança, Encapsulamento, Polimorfismo) e Pacotes. | Testes lógicos baseados em regras de negócio específicas. |
+| # | Projeto                                                                            | Principais Conceitos Aplicados | Foco em Qualidade (QA) |
+|---|------------------------------------------------------------------------------------|--------------------------------|------------------------|
+| 01 | [🏦 Sistema Bancário](./01-desafio-sistema-bancario/src)                           | Sintaxe Java, entrada de dados (`Scanner`), controle de fluxo e loops. | Validação de fluxos e limites de saldo. |
+| 02 | [🎵 AudioPlayer](./02-desafio-audio-player/src/br/com/alura/audioplayer)           | Orientação a Objetos (Herança, Encapsulamento, Polimorfismo) e Pacotes. | Testes lógicos baseados em regras de negócio específicas. |
+| 03 | [💳 App de Compras](./03-desafio-aplicacao-de-compras/src/br/com/alura/appcompras) | `List`, `ArrayList`, `Collections.sort`, `Comparable` | Criação de um sistema de compras com limite de cartão, ordenação automatizada de preços, validação estrita de entradas (S/N) e blindagem contra valores inválidos. |
 
 ---
 
