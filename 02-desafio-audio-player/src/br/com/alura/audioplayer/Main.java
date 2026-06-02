@@ -54,7 +54,7 @@ public class Main {
         System.out.println("Álbum: " + minhaMusica.getAlbum());
         System.out.println("Total de Reproduções: " + minhaMusica.getTotalReproducoes());
         System.out.println("Total de Curtidas: " + minhaMusica.getTotalCurtidas());
-        System.out.println("Classificação (Estrelas): " + minhaMusica.getClassificacao());
+        System.out.println("Classificação: " + minhaMusica.getClassificacao() + " Estrelas!");
 
     }
 

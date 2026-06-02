@@ -36,9 +36,4 @@ public class Audio {
         return classificacao;
     }
 
-    public void setClassificacao(int classificacao) {
-        this.classificacao = classificacao;
-    }
-
-
 }
