@@ -9,6 +9,9 @@ public class CartaoCredito {
     private List<Compra> compras;
 
     public CartaoCredito(double limite) {
+        if (limite <= 0) {
+            throw new IllegalArgumentException("O valor do limite deve ser maior que zero!");
+        }
         this.limite = limite;
         //quando o cartão é criado o saldo inicial é igual ao limite
         this.saldo = limite;

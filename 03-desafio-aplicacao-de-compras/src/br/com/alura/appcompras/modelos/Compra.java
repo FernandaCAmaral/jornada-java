@@ -5,6 +5,9 @@ public class Compra implements Comparable<Compra> {
     private double valor;
 
     public Compra(String descricao, double valor) {
+        if (valor <= 0) {
+            throw new IllegalArgumentException("O valor da compra deve ser maior que zero!");
+        }
         this.descricao = descricao;
         this.valor = valor;
     }
@@ -20,6 +23,6 @@ public class Compra implements Comparable<Compra> {
 
     @Override
     public String toString() {
-        return "Compra: " + descricao + "(R$ " + valor + ")";
+        return "Compra: " + descricao + " (R$ " + valor + ")";
     }
 }
