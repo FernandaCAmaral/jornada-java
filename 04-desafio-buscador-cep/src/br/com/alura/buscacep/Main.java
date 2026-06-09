@@ -27,7 +27,13 @@ public class Main {
                 Endereco novoEndereco = consultaCep.buscaEndereco(busca);
 
                 System.out.println("\n✅ Endereço encontrado com sucesso:");
-                System.out.println(novoEndereco);
+                System.out.println("------------------------------------------");
+                System.out.println(" CEP: " + novoEndereco.cep());
+                System.out.println(" Rua: " + novoEndereco.logradouro());
+                System.out.println(" Bairro: " + novoEndereco.bairro());
+                System.out.println(" Cidade: " + novoEndereco.localidade());
+                System.out.println(" Estado(UF): " + novoEndereco.uf());
+                System.out.println("------------------------------------------");
 
                 // Grava o arquivo JSON
                 GeradorDeArquivo gerador = new GeradorDeArquivo();
