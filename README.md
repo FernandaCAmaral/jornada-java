@@ -28,8 +28,8 @@ Abaixo estão os projetos desenvolvidos, organizados por ordem de complexidade e
 ---
 
 ## 🎯 Próximos Passos na Formação
-* [ ] Trabalhar com Listas e Coleções de Dados (`ArrayList`, ordenação)
-* [ ] Consumir APIs externas e tratamento de exceções (`Try-Catch`)
+* [x] Trabalhar com Listas e Coleções de Dados (`ArrayList`, ordenação)
+* [x] Consumir APIs externas e tratamento de exceções (`Try-Catch`)
 
 ---
 👨‍💻 *Dúvidas, feedbacks ou conexões? Você pode me encontrar no [LinkedIn](https://www.linkedin.com/in/fernanda-cunha-do-amaral/).*
