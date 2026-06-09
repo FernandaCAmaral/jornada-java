@@ -1,4 +1,5 @@
 package br.com.alura.buscacep.modelos;
 
-public record Endereco() {
+public record Endereco(String cep, String logradouro,
+                       String bairro, String localidade, String uf) {
 }
