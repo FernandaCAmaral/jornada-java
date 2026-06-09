@@ -31,7 +31,7 @@ public class ConsultaCep {
 
         } catch (Exception e) {
             // Previne caso a internet caia ou o CEP falhe
-            throw new RuntimeException("Não consegui obter o endereço a partir desse CEP: " + e.getMessage());
+            throw new RuntimeException("Não foi possível obter o endereço a partir desse CEP: " + e.getMessage());
         }
     }
 }
